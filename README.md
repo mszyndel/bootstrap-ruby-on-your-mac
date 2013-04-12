@@ -10,12 +10,12 @@ I dislike RVM gemsets concept because you need to create and manage them manuall
 
 Steps
 --------------------------
-Given you have just MacOS bundled Ruby do the following:
-* Install homebrew  
+Given you have just MacOS bundled Ruby do the following. If you have your favourite Ruby already installed, skip steps 1-3
+1. Install homebrew  
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
-* Install Ruby of choice  
+2. Install Ruby of choice  
 ```
 brew install ruby
 ```  
@@ -24,15 +24,16 @@ or for 1.9.3
   brew tap homebrew/versions
   brew install homebrew/versions/ruby193
 ```
-* Install bundler & rails (just in case you'd like to do ```rails new```)  
+3. Install bundler & rails (just in case you'd like to do ```rails new```)  
 ```
 gem install bundler rails
 ```
-* Add following line to your ```~/.bash_login```  
+4. Add following line to your ```~/.bash_login```  
 ```
 export BUNDLE_PATH=.gems/
 ```
-* Install https://github.com/gma/bundler-exec
-* Voila!
+5. Install https://github.com/gma/bundler-exec
+
+Voila!
 
 Now each Rails project will have it's own gems installed in $PROJECT_PATH/.gems directory
