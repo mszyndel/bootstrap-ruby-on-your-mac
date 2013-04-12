@@ -5,7 +5,7 @@ Fast and easy way to set up Ruby/Rails env on your mac with gem separation
 
 Purpose
 --------------------------
-I wanted to setup my development environment to have automatic gem separation while being independent of Ruby version or installation method (Homebrew, rbenv, RVM)
+I wanted to setup my development environment to have automatic gem separation while being independent of Ruby version or installation method (Homebrew, rbenv, RVM).
 I dislike RVM gemsets concept because you need to create and manage them manually.
 
 Steps
